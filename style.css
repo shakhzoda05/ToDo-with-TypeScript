@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   background-color: #e5f879;
   display: flex;
   justify-content: center;
@@ -31,13 +31,14 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  gap: 5px;
 }
 
 #todoInput {
   width: 80%;
   padding: 15px;
   font-size: 1.2rem;
-  border: 2px solid #ddd;
+  border: 2px solid #e5f879d9;
   border-radius: 8px;
   outline: none;
   transition: all 0.3s ease-in-out;
@@ -51,7 +52,7 @@ h1 {
 button {
   width: 19%;
   padding: 15px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: white;
   background-color: #e5f879;
   border: none;
