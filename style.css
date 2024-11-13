@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e5f879;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background-color: #f7f8f3;
+  border-radius: 10px; 
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#todoInput {
+  width: 80%;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#todoInput:focus {
+  border-color: #e5f879; 
+  box-shadow: 0 0 5px rgba(76, 110, 245, 0.3);
+}
+
+button {
+  width: 19%;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #e5f879;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #dff856; 
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo-item:hover {
+  background-color: #e5f879;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.todo-item span {
+  font-size: 1.2rem;
+  color: #333;
+  flex: 1;
+}
+
+.todo-item button {
+  width: 18%;
+  padding: 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  font-size: 1.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item button:first-child {
+  background-color: #28a745;
+}
+
+.todo-item button:first-child:hover {
+  background-color: #218838;
+}
+
+.todo-item button:last-child {
+  background-color: #dc3545;
+}
+
+.todo-item button:last-child:hover {
+  background-color: #c82333;
+}
+ 
